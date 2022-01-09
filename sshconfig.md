@@ -1,5 +1,4 @@
 # How to set up ssh so that you can access virtual machines without having to type your user@host and password every time
-    git push --set-upstream origin main
 1. If you don't have it already, make the `.ssh` directory in your homedir with `mkdir .ssh`
 
 ## So that you don't have to type your username every time...
