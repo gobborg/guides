@@ -32,5 +32,5 @@ You should be able to access now.
 
 ## Caveats and troubleshooting
 GNOME implemented a keystore or something, so if you're running GNOME, you might be asked to create a password when you do `ssh keygen`. This password is different from your user password. You'll have to input that password when you ssh.
-If you have trouble gaining access, try running `ssh -v -v (hostname)`
+If you have trouble gaining access, try running `ssh -v -v user@host` and read the output for errors.
 	I first had trouble because I created DSA instead of RSA keys. I ran that command and got `debug1: Skipping ssh-dss key /home/gobborg/.ssh/id_dsa - not in PubkeyAcceptedKeyTypes`
